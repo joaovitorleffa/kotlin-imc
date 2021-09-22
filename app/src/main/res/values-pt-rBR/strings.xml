@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="height">Altura</string>
+    <string name="fill_height">Informe sua altura</string>
+    <string name="weight">Peso</string>
+    <string name="fill_weight">Informe seu peso</string>
+    <string name="calculate">Calcular</string>
+    <string name="name">Nome</string>
+    <string name="fill_name">Informe seu nome</string>
+    <string name="genre">Gênero</string>
+    <string name="fill_genre">Informe seu gênero</string>
+    <string name="imc">IMC</string>
+    <string name="your_imc">Seu IMC</string>
+    <string name="result_name">Nome:</string>
+    <string name="result_genre">Gênero:</string>
+    <string name="result_height">Altura:</string>
+    <string name="result_weight">Peso:</string>
+</resources>

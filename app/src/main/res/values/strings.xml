@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="height">Height</string>
+    <string name="fill_height">Inform your height</string>
+    <string name="weight">Weight</string>
+    <string name="fill_weight">Inform your weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="name">Name</string>
+    <string name="fill_name">Inform your name</string>
+    <string name="genre">Genre</string>
+    <string name="fill_genre">Inform your genre</string>
+    <string name="imc">IMC</string>
+    <string name="your_imc">Your IMC</string>
+    <string name="result_name">Name:</string>
+    <string name="result_genre">Genre:</string>
+    <string name="result_height">Height:</string>
+    <string name="result_weight">Weight:</string>
+</resources>

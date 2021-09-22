@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/textResultGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Genre"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/labelGenre"
+        app:layout_constraintStart_toEndOf="@+id/labelGenre"
+        app:layout_constraintTop_toTopOf="@+id/labelGenre" />
+
+    <TextView
+        android:id="@+id/labelGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/result_genre"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelName" />
+
+    <TextView
+        android:id="@+id/textResultName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Joao"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/labelName"
+        app:layout_constraintStart_toEndOf="@+id/labelName"
+        app:layout_constraintTop_toTopOf="@+id/labelName" />
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/result_name"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textImcTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/your_imc"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelWeight" />
+
+    <TextView
+        android:id="@+id/labelHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/result_height"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelGenre" />
+
+    <TextView
+        android:id="@+id/labelWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/result_weight"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelHeight" />
+
+    <TextView
+        android:id="@+id/textResultWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/labelWeight"
+        app:layout_constraintStart_toEndOf="@+id/labelWeight"
+        app:layout_constraintTop_toTopOf="@+id/labelWeight" />
+
+    <TextView
+        android:id="@+id/textResultHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="0.0"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/labelHeight"
+        app:layout_constraintStart_toEndOf="@+id/labelHeight"
+        app:layout_constraintTop_toTopOf="@+id/labelHeight"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textResultImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="0"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textImcTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
