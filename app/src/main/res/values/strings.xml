@@ -28,7 +28,7 @@
     <string name="normal_weight">Normal Weight</string>
     <string name="marginally_overweight">Marginally Overweight</string>
     <string name="over_weight">Over Weight</string>
-    <string name="obesidy">Obesidy Grade I</string>
+    <string name="obesidy">Obesidy</string>
 
     <string name="condition_not_found">Condition not found</string>
 </resources>

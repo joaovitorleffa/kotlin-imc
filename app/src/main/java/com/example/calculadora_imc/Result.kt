@@ -17,7 +17,6 @@ class Result : AppCompatActivity() {
         val person = intent.getParcelableExtra<Person>("imc")
 
         val df = DecimalFormat("#.##")
-        df.roundingMode = RoundingMode.CEILING
 
         val imcResult = person!!.calculateImc()
         val sex = person.sex.toString()

@@ -29,7 +29,7 @@
     <string name="normal_weight">Peso normal</string>
     <string name="marginally_overweight">Marginalmente acima do peso</string>
     <string name="over_weight">Acima do peso ideal</string>
-    <string name="obesidy">Acima do peso ideal</string>
+    <string name="obesidy">Obesidade</string>
 
     <string name="condition_not_found">Condição não encontrada</string>
 </resources>
