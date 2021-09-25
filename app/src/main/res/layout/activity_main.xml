@@ -31,7 +31,7 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputGenre" />
+        app:layout_constraintTop_toBottomOf="@+id/inputSex" />
 
     <Button
         android:id="@+id/buttonCalculate"
@@ -71,6 +71,7 @@
         android:autofillHints="@string/fill_weight"
         android:background="@android:drawable/edit_text"
         android:contentDescription="@string/fill_weight"
+        android:drawablePadding="12dp"
         android:ems="10"
         android:hint="@string/fill_weight"
         android:inputType="textPersonName|numberDecimal"
@@ -89,6 +90,7 @@
         android:layout_marginEnd="24dp"
         android:autofillHints="@string/fill_height"
         android:background="@android:drawable/edit_text"
+        android:drawablePadding="12dp"
         android:ems="10"
         android:hint="@string/fill_height"
         android:inputType="numberDecimal"
@@ -119,9 +121,11 @@
         android:layout_marginTop="2dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/edit_text"
+        android:capitalize="words"
+        android:drawablePadding="12dp"
         android:ems="10"
         android:hint="@string/fill_name"
-        android:inputType="textPersonName|text"
+        android:inputType="textPersonName|text|textCapWords"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textName" />
@@ -132,22 +136,25 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="@string/genre"
+        android:text="@string/sex"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputName" />
 
     <EditText
-        android:id="@+id/inputGenre"
+        android:id="@+id/inputSex"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/edit_text"
+        android:capitalize="words"
+        android:drawablePadding="12dp"
         android:ems="10"
-        android:hint="@string/fill_genre"
-        android:inputType="textPersonName"
+        android:hint="@string/fill_sex"
+        android:inputType="textPersonName|textCapWords"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textGenre" />

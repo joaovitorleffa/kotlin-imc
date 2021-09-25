@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculadora IMC</string>
+
     <string name="height">Altura</string>
-    <string name="fill_height">Informe sua altura</string>
     <string name="weight">Peso</string>
-    <string name="fill_weight">Informe seu peso</string>
-    <string name="calculate">Calcular</string>
     <string name="name">Nome</string>
+    <string name="sex">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Feminino</string>
+
+    <string name="fill_height">Informe sua altura (m) Ex: 1.80</string>
+    <string name="fill_weight">Informe seu peso (Kg) Ex: 80</string>
     <string name="fill_name">Informe seu nome</string>
-    <string name="genre">Gênero</string>
-    <string name="fill_genre">Informe seu gênero</string>
+    <string name="fill_sex">Informe seu sexo (Masculino ou Feminino)</string>
+    <string name="invalid_sex">Sexo inválido</string>
+
+    <string name="calculate">Calcular</string>
     <string name="imc">IMC</string>
     <string name="your_imc">Seu IMC</string>
+
+
     <string name="result_name">Nome:</string>
-    <string name="result_genre">Gênero:</string>
+    <string name="result_sex">Sexo:</string>
     <string name="result_height">Altura:</string>
     <string name="result_weight">Peso:</string>
+
+    <string name="under_weight">Abaixo do peso</string>
+    <string name="normal_weight">Peso normal</string>
+    <string name="marginally_overweight">Marginalmente acima do peso</string>
+    <string name="over_weight">Marginalmente acima do peso</string>
+    <string name="obesidy">Acima do peso ideal</string>
+
+    <string name="condition_not_found">Condição não encontrada</string>
 </resources>

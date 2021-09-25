@@ -1,18 +1,34 @@
 <resources>
     <string name="app_name">IMC Calculator</string>
+
     <string name="height">Height</string>
-    <string name="fill_height">Inform your height</string>
     <string name="weight">Weight</string>
-    <string name="fill_weight">Inform your weight</string>
-    <string name="calculate">Calculate</string>
     <string name="name">Name</string>
+    <string name="sex">Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="fill_height">Inform your height (m) Ex: 1.80</string>
+    <string name="fill_weight">Inform your weight (kg) Ex: 80</string>
     <string name="fill_name">Inform your name</string>
-    <string name="genre">Genre</string>
-    <string name="fill_genre">Inform your genre</string>
+    <string name="fill_sex">Inform your sex (Male or Female)</string>
+    <string name="invalid_sex">Invalid sex</string>
+
+    <string name="calculate">Calculate</string>
     <string name="imc">IMC</string>
     <string name="your_imc">Your IMC</string>
+
+
     <string name="result_name">Name:</string>
-    <string name="result_genre">Genre:</string>
+    <string name="result_sex">Sexo:</string>
     <string name="result_height">Height:</string>
     <string name="result_weight">Weight:</string>
+
+    <string name="under_weight">Under Weight</string>
+    <string name="normal_weight">Normal Weight</string>
+    <string name="marginally_overweight">Over Weight</string>
+    <string name="over_weight">Over Weight</string>
+    <string name="obesidy">Obesidy Grade I</string>
+
+    <string name="condition_not_found">Condition not found</string>
 </resources>

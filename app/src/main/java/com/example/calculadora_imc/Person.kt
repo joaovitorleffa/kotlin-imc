@@ -3,7 +3,7 @@ package com.example.calculadora_imc
 import android.os.Parcel
 import android.os.Parcelable
 
-class Imc(var name: String?, var genre: String?, var height: Double, var weight: Double): Parcelable {
+class Person(var name: String?, var sex: String?, var height: Double, var weight: Double): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
         parcel.readString(),
@@ -18,7 +18,7 @@ class Imc(var name: String?, var genre: String?, var height: Double, var weight:
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
-        parcel.writeString(genre)
+        parcel.writeString(sex)
         parcel.writeDouble(height)
         parcel.writeDouble(weight)
     }
@@ -27,12 +27,12 @@ class Imc(var name: String?, var genre: String?, var height: Double, var weight:
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<Imc> {
-        override fun createFromParcel(parcel: Parcel): Imc {
-            return Imc(parcel)
+    companion object CREATOR : Parcelable.Creator<Person> {
+        override fun createFromParcel(parcel: Parcel): Person {
+            return Person(parcel)
         }
 
-        override fun newArray(size: Int): Array<Imc?> {
+        override fun newArray(size: Int): Array<Person?> {
             return arrayOfNulls(size)
         }
     }

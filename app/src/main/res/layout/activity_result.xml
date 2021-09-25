@@ -7,24 +7,24 @@
     tools:context=".Result">
 
     <TextView
-        android:id="@+id/textResultGenre"
+        android:id="@+id/textResultSex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Genre"
+        android:text="@string/sex"
         android:textColor="#009688"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/labelGenre"
-        app:layout_constraintStart_toEndOf="@+id/labelGenre"
-        app:layout_constraintTop_toTopOf="@+id/labelGenre" />
+        app:layout_constraintBottom_toBottomOf="@+id/labelSex"
+        app:layout_constraintStart_toEndOf="@+id/labelSex"
+        app:layout_constraintTop_toTopOf="@+id/labelSex" />
 
     <TextView
-        android:id="@+id/labelGenre"
+        android:id="@+id/labelSex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="@string/result_genre"
+        android:text="@string/result_sex"
         android:textColor="#673AB7"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Joao"
+        android:text="@string/name"
         android:textColor="#009688"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/labelName"
@@ -60,10 +60,11 @@
         android:id="@+id/textImcTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:text="@string/your_imc"
-        android:textColor="#009688"
+        android:textColor="#673AB7"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelWeight" />
@@ -79,7 +80,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelGenre" />
+        app:layout_constraintTop_toBottomOf="@+id/labelSex" />
 
     <TextView
         android:id="@+id/labelWeight"
@@ -99,7 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="0"
+        android:text="@string/weight"
         android:textColor="#009688"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/labelWeight"
@@ -111,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="0.0"
+        android:text="@string/height"
         android:textColor="#009688"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/labelHeight"
@@ -123,13 +124,26 @@
         android:id="@+id/textResultImc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="0"
+        android:layout_marginTop="16dp"
+        android:text="@string/condition_not_found"
         android:textColor="#009688"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textImcTitle" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/imc"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textResultImc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
